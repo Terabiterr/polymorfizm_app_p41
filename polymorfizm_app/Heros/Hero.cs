@@ -1,10 +1,7 @@
 ﻿namespace polymorfizm_app.Heros
 {
-    public class Hero //Base, Super, Parent
+    public abstract class Hero //Base, Super, Parent
     {
-        public void Attack()
-        {
-            Console.WriteLine("Hero is attacked ...");
-        }
+        public abstract void Attack();
     }
 }

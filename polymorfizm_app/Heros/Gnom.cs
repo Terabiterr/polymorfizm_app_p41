@@ -8,9 +8,9 @@ namespace polymorfizm_app.Heros
 {
     public class Gnom : Hero
     {
-        public void Attack()
+        public override void Attack()
         {
-            Console.WriteLine("Gnom is attacked ...");
+            throw new NotImplementedException();
         }
     }
 }

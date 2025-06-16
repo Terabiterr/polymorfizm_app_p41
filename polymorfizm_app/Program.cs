@@ -4,14 +4,17 @@ namespace polymorfizm_app
 {
     public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-
+            Elf elf = new Elf();
+            Gnom gnom = new Gnom();
+            HeroAttack(elf);
+            HeroAttack(gnom);
             Console.ReadKey();
         }
-        static void HeroAttack(Hero hero)
+        public static void HeroAttack(Hero hero)
         {
-
+            hero.Attack();
         }
     }
 }

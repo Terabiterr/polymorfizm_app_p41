@@ -8,7 +8,7 @@ namespace polymorfizm_app.Heros
 {
     public class Elf : Hero
     {
-        public void Attack()
+        public override void Attack()
         {
             Console.WriteLine("Elf is attacked ...");
         }
