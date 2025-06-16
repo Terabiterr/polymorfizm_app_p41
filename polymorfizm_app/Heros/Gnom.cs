@@ -6,11 +6,17 @@ using System.Threading.Tasks;
 
 namespace polymorfizm_app.Heros
 {
-    public class Gnom : Hero
+    public class Gnome : Hero
     {
+        public Gnome(string? name) : base(name)
+        {
+        } 
+
+        public override string? Name { get; set; }
+
         public override void Attack()
         {
-            throw new NotImplementedException();
+            Console.WriteLine($"Hero: {Name} attacked ...");
         }
     }
 }

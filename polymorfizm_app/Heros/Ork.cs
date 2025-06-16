@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace polymorfizm_app.Heros
 {
-    public class Elf : Hero
+    public class Ork : Hero
     {
-        public Elf(string? name) : base(name)
+        public Ork(string? name) : base(name)
         {
         }
 
